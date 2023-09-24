@@ -1,4 +1,9 @@
+from colorama import Fore, Style
+import sys
+from sys import stdout
+
 def print_c(text):
-    from colorama import Fore, Style
-    from sys import stdout
     stdout.write(text + f"\n")
+
+def exit_code():
+    sys.exit()
